@@ -19,3 +19,15 @@ Nullish coalescing(??)==> we use it when any variable provide null or undefined 
 example:  
 const value: string | null | undefined = null; 
 const result = value ?? 'Default Value';
+
+### How do you handle asynchronous operations in TypeScript, and what are the advantages of using async/await over callbacks or Promises?
+
+Ans: In TS we handle asynchronous operations in callbacks, Promises, and async/await syntax .  
+
+Some Advantages of using async/await over callbacks or Promises 
+
+==> Debugging: when we write a code with async/await is easier to debug compared to callbacks or complex Promise chains.
+
+==> Readability and Maintainability: Async-await syntax provides cleaner and more readable code compared to callbacks or complex Promise chains.
+
+==>Sequentiality And Chaining: Async/await allows chaining of asynchronous operations in a more sequential and synchronous-like way, making code logic clearer 
